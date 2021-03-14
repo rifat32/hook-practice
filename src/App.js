@@ -34,7 +34,7 @@ function App() {
     <>
     {alert.show &&  <Alert type={alert.type} text={alert.text}/>}
    
-    <h1>budget calculatoree </h1>
+    <h1>budget calculator </h1>
     <main className="app">
     <ExpenseForm charge={charge} amount={amount} handleCharge={handleCharge} handleAmount={handleAmount} handleSubmit={handleSubmit} edit={edit} />
     <ExpenseList expenses={expenses} handleDelete={handleDelete} handleEdit={handleEdit} clearItems={clearItems}/>
