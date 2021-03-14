@@ -18,7 +18,7 @@ export default function ExpenseForm({amount,charge,handleCharge,handleAmount,han
                     <div className="col-6">
                     <div className="form-group">
                     <label htmlFor="amount" style={{color:'black'}}>amount</label>
-                    <input style={{border:"2px solid black",backgroundColor:"white"}}  type="number" name="amount" id="amount" className="form-control" placeholder="e.g 100" value={amount} onChange={handleAmount}/>
+                    <input style={{border:"2px solid black",backgroundColor:"white"}}  type="number" name="amount" id="amount" className="form-control" placeholder="e.g 200" value={amount} onChange={handleAmount}/>
                 </div>
                     </div>
 
